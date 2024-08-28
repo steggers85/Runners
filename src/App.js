@@ -247,14 +247,14 @@ function App() {
         <h2>Total Runs in KM</h2>
         <div className="bar-chart">
           <BarChart
-            width={370}
+            width={400}
             height={300}
             data={totalRunsData}
             margin={{
               top: 0,
-              right: 10,
-              left: -20,
-              bottom: 5,
+              right: 5,
+              left: 5,
+              bottom: 0,
             }}
           >
             <CartesianGrid strokeDasharray="10 3" />
