@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Runners/static/css/main.21ce0fa6.css",
-    "main.js": "/Runners/static/js/main.bdbb81cc.js",
+    "main.js": "/Runners/static/js/main.5b901b82.js",
     "static/js/453.bd6ba36f.chunk.js": "/Runners/static/js/453.bd6ba36f.chunk.js",
     "index.html": "/Runners/index.html",
     "main.21ce0fa6.css.map": "/Runners/static/css/main.21ce0fa6.css.map",
-    "main.bdbb81cc.js.map": "/Runners/static/js/main.bdbb81cc.js.map",
+    "main.5b901b82.js.map": "/Runners/static/js/main.5b901b82.js.map",
     "453.bd6ba36f.chunk.js.map": "/Runners/static/js/453.bd6ba36f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21ce0fa6.css",
-    "static/js/main.bdbb81cc.js"
+    "static/js/main.5b901b82.js"
   ]
 }
