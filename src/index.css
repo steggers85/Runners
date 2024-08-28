@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* General styles for the app */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 450px;
+  overflow: auto;
+}
+
+/* Styles for the ag-Grid table */
+.ag-theme-alpine {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* Styles for the BarChart */
+.bar-chart {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 600px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .ag-theme-alpine {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bar-chart {
+    width: 100%;
+    max-width: 100%;
+  }
+  .header-controls {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .header-controls input {
+    margin: 0 auto;
+  }
+  
+  .header-controls button {
+    margin-left: auto;
+  }
+}
