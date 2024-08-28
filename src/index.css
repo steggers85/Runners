@@ -26,14 +26,14 @@ code {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  max-width: 450px;
+  max-width: 650px;
   overflow: auto;
 }
 
 /* Styles for the ag-Grid table */
 .ag-theme-alpine {
   width: 100%;
-  max-width: 450px;
+  max-width: 660px;
   margin: 0 auto;
   overflow: auto;
 }
@@ -41,13 +41,13 @@ code {
 /* Styles for the BarChart */
 .bar-chart {
   width: 100%;
-  max-width: 450px;
+  max-width: 650px;
   margin: 0 auto;
   overflow: auto;
 }
 
 /* Media queries for mobile screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .App-header {
     font-size: calc(8px + 2vmin);
   }

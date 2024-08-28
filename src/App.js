@@ -230,13 +230,13 @@ function App() {
       <header className="App-header rounded">
         <h1>The Runners</h1>
         <div className="header-controls">
-          <input
-            type="date"
-            value={startDate.toISOString().substr(0, 10)}
-            onChange={handleDateChange}
-          />
-          <button onClick={addDayColumn}>Add Day</button>
-        </div>
+  <input
+    type="date"
+    value={startDate.toISOString().substr(0, 10)}
+    onChange={handleDateChange}
+  />
+  <button style={{ marginLeft: '40px' }} onClick={addDayColumn}>Add Day</button>
+</div>
         <div className="ag-theme-alpine" style={{ height: 320 }}>
           <AgGridReact
             rowData={rowData}
